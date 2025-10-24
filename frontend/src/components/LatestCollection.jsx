@@ -10,7 +10,7 @@ const LatestCollection = () => {
 
     useEffect(()=>{
         setLatestProducts(products.slice(0,10));
-    },[])
+    },[products])
 
 
   return (
@@ -18,7 +18,7 @@ const LatestCollection = () => {
         <div className='text-center py-8 text-3xl'>
             <Title text1={'LATEST'} text2={'COLLECTIONS'}/>
             <p className='w-3/4 m-auto text-xs sm:text-sm md:text-base text-gray-600'>
-            Lorem ipsum is a dummy or placeholder text commonly used in graphic design
+            Explore our latest collection of fashion-forward outfits crafted to keep you stylish and comfortable every day
             </p>
         </div>
         {/* {Rendering Products} */}

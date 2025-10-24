@@ -11,7 +11,7 @@ const NewsletterBox = () => {
     <div className='text-center'>
         <p className='text-2xl font-medium text-gray-800'>Subscribe now & get 20% off</p>
         <p className='text-gray-400 mt-3'>
-            Lorem ipsum is a dummy or placeholder text commonly used in graphic design
+            Join our fashion family! Get early access to new collections, style tips, and members-only deals.
         </p>
         <form onSubmit={onSubmitHandler} className='w-full sm:w-1/2 flex items-center gap-3 mx-auto my-6 border pl-3'>
             <input className='w-full sm:flex-1 outline-none' type="email" placeholder='Enter Your Email' required />
